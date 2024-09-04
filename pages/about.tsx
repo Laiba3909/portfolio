@@ -1,6 +1,19 @@
 
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
+import projectone from '../public/projectone.png'
+import projecttwo from '../public/projecttwo.png'
+import graphic from '../public/graphic.png'
+import august from '../public/august.png'
+import pana from '../public/pana.png'
+import assign from '../public/assign.png'
+import code from '../public/code.png'
+import amazon from '../public/amazon.png'
+import linkedin from '../public/linkedin.png'
+import git from '../public/git.webp'
+import facebook from '../public/facebook.webp'
+import insta from '../public/insta.webp'
 
 export default function about(){
     const toggleSidebar = (): void => {
@@ -64,6 +77,148 @@ export default function about(){
            <div className="box2">
       <h1><i>Here is some of my latest projects</i></h1>
            </div>
-        </div>
+           <div className="box4">
+          
+           {/* from here projects setup start */}
+           <div className="box5">
+            <p >    <Image 
+            className="imagep"
+    id="1st project"
+    src={projectone} 
+    alt="Loading"
+    width={300}
+    /></p>
+     <h2 className="h2"><button className="bt">Fashion Web</button></h2>
+
+    
+            </div>
+            <div className="box5">
+            <p >    <Image 
+            className="imagep"
+    id="1st project"
+    src={projecttwo} 
+    alt="Loading"
+    width={300}
+    /></p>
+     <h2 className="h2"><button className="bt">Hospital web</button></h2>
+
+    
+            </div>
+            <div className="box5">
+            <p >    <Image 
+            className="imagep"
+    id="1st project"
+    src={graphic} 
+    alt="Loading"
+   
+    /></p>
+     <h2 className="h2"><button className="bt">Hiring web</button></h2>
+
+    
+            </div>
+
+            <div className="box5">
+            <p >    <Image 
+            className="imagep"
+    id="1st project"
+    src={august} 
+    alt="Loading"
+    
+    /></p>
+     <h2 className="h2"><button className="bt">14 Aug Celebration</button></h2>
+
+    
+            </div>
+
+            <div className="box5">
+            <p >    <Image 
+            className="imagep"
+    id="1st project"
+    src={pana} 
+    alt="Loading"
+    width={300}
+    height={500}
+    /></p>
+     <h2 className="h2"><button className="bt">Pana cloud Clone</button></h2>
+
+    
+            </div>
+
+            <div className="box5">
+            <p >    <Image 
+            className="imagep"
+    id="1st project"
+    src={assign} 
+    alt="Loading"
+
+    /></p>
+     <h2 className="h2"><button className="bt">Css Hackathon</button></h2>
+
+    
+            </div>
+
+            <div className="box5">
+            <p >    <Image 
+            className="imagep"
+    id="1st project"
+    src={code} 
+    alt="Loading"
+
+    /></p>
+     <h2 className="h2"><button className="bt">TS 45 Assignments</button></h2>
+
+    
+            </div>
+
+            <div className="box5">
+            <p >    <Image 
+            className="imagep"
+    id="1st project"
+    src={amazon} 
+    alt="Loading"
+
+    /></p>
+     <h2 className="h2"><button className="bt">Amazon SEO</button></h2>
+
+    
+            </div>
+            </div>
+
+
+
+            <div>
+    <div className="footer"> 
+      <p className='connect1'>Connect With Me</p>
+
+      <Link id="read-more" href={"https://www.linkedin.com/in/laiba-noman-158663290/"} target="_blank">  <Image 
+           
+    id="project1"
+    src={linkedin}
+    alt="Loading"
+    /></Link> 
+          
+          <Link id="read-more" href={"https://github.com/Laiba3909"} target="_blank">  <Image 
+           
+    id="project1"
+    src={git}
+    alt="Loading"
+    /></Link> 
+         
+  
+<Link  href={"https://www.instagram.com/laiba_freelancer?igsh=ZWFndzkxZXd6YjVj"} target="_blank">  <Image 
+         
+    id="project1"
+    src={insta}
+    alt="Loading"
+    /></Link> 
+
+<Link id="read-more" href={"https://www.facebook.com/profile.php?id=61554710193973&mibextid=ZbWKwL"} target="_blank">  <Image 
+          
+    id="project1"
+    src={facebook}
+    alt="Loading"
+    /></Link> 
+    </div></div>
+            </div>
     )
 }

@@ -4,6 +4,10 @@ import Link from "next/link";
 import Image from "next/image";
 import myself from '../public/myself.png'
 import React from 'react';
+import linkedin from '../public/linkedin.png'
+import git from '../public/git.webp'
+import facebook from '../public/facebook.webp'
+import insta from '../public/insta.webp'
 export default function Portfolio() {
   const toggleSidebar = (): void => {
     const sidebar = document.getElementById("sidebar");
@@ -34,7 +38,7 @@ export default function Portfolio() {
     <p className="text2">Hi Everyone,</p>
 <Typewriter
   options={{
-    strings: [  'I am laiba noman', ' Web Developer 👩‍💻',' And Student of Governor house 😇'],
+    strings: [  'I am laiba noman', ' Web Developer 👩‍💻',' And a Student😇'],
     autoStart: true,
     loop: true,    
   }}
@@ -53,9 +57,40 @@ export default function Portfolio() {
    </ul>
    </div>
   <div>
-    <div className="footer">Footer</div>
+    <div className="footer"> 
+      <p className='connect'>Connect With Me</p>
+
+      <Link id="read-more" href={"https://www.linkedin.com/in/laiba-noman-158663290/"} target="_blank">  <Image 
+           
+    id="project"
+    src={linkedin}
+    alt="Loading"
+    /></Link> 
+          
+          <Link id="read-more" href={"https://github.com/Laiba3909"} target="_blank">  <Image 
+           
+    id="project"
+    src={git}
+    alt="Loading"
+    /></Link> 
+         
+  
+<Link  href={"https://www.instagram.com/laiba_freelancer?igsh=ZWFndzkxZXd6YjVj"} target="_blank">  <Image 
+         
+    id="project"
+    src={insta}
+    alt="Loading"
+    /></Link> 
+
+<Link id="read-more" href={"https://www.facebook.com/profile.php?id=61554710193973&mibextid=ZbWKwL"} target="_blank">  <Image 
+          
+    id="project"
+    src={facebook}
+    alt="Loading"
+    /></Link> 
+    </div></div>
   </div>
-</div>
+
 )
 }
 

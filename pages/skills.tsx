@@ -2,7 +2,11 @@
 import Link from "next/link";
 // pages/skills.js
 import React from 'react';
-
+import Image from "next/image";
+import linkedin from '../public/linkedin.png'
+import git from '../public/git.webp'
+import facebook from '../public/facebook.webp'
+import insta from '../public/insta.webp'
 
  export default function skill(){
     const toggleSidebar = (): void => {
@@ -77,6 +81,41 @@ import React from 'react';
 </div>
 
 </div>
+
+
+<div>
+    <div className="footer"> 
+      <p className='connect1'>Connect With Me</p>
+
+      <Link id="read-more" href={"https://www.linkedin.com/in/laiba-noman-158663290/"} target="_blank">  <Image 
+           
+    id="project1"
+    src={linkedin}
+    alt="Loading"
+    /></Link> 
+          
+          <Link id="read-more" href={"https://github.com/Laiba3909"} target="_blank">  <Image 
+           
+    id="project1"
+    src={git}
+    alt="Loading"
+    /></Link> 
+         
+  
+<Link  href={"https://www.instagram.com/laiba_freelancer?igsh=ZWFndzkxZXd6YjVj"} target="_blank">  <Image 
+         
+    id="project1"
+    src={insta}
+    alt="Loading"
+    /></Link> 
+
+<Link id="read-more" href={"https://www.facebook.com/profile.php?id=61554710193973&mibextid=ZbWKwL"} target="_blank">  <Image 
+          
+    id="project1"
+    src={facebook}
+    alt="Loading"
+    /></Link> 
+    </div></div>
 </div>
 
     )
