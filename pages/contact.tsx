@@ -5,6 +5,7 @@ import linkedin from '../public/linkedin.png'
 import git from '../public/git.webp'
 import facebook from '../public/facebook.webp'
 import insta from '../public/insta.webp'
+
 export default function contact(){
     const toggleSidebar = (): void => {
         const sidebar = document.getElementById("sidebar");
@@ -48,7 +49,7 @@ export default function contact(){
    
            <textarea name="comments" id="" placeholder="How can i help you?" required></textarea>
      <br />
-           <input type="image"  src='submit.png' className="image"/>
+           <input type="image"  src='buttoon.png' className="image"/>
            </form>
            <Link id="read-more" href={"https://www.linkedin.com/in/laiba-noman-158663290/"} target="_blank">  <Image 
             className="im"

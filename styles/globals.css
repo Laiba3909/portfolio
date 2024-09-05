@@ -922,7 +922,7 @@ h1{
   background-color: rgb(211, 202, 202);
   border-radius: 5px;
   border: 8px solid rgb(80, 80, 80) ;
-  color: rgb(80, 80, 80);
+  color: rgb(0, 0, 0);
   box-shadow: 1px 2px 3px 3px;
   margin-top: 10px;
 }
@@ -1148,9 +1148,9 @@ textarea{
   background-color: unset;
   border: unset;
   margin-top: -100px;
-  margin-left: -110px;
+  margin-left: -160px;
   height: 270px;
-
+  width: 200px;
 }
  .im{
   width: 50px;
@@ -1217,7 +1217,8 @@ textarea{
 
  .image{
   width: 200px;
-  margin-left: -100px;
+  margin-left: -120px;
+  width: 150px;
  }
   
 
@@ -1271,7 +1272,8 @@ textarea{
 
  .image{
   width: 200px;
-  margin-left: -120px;
+  margin-left: -140px;
+  width: 140px;
  }
   
 
@@ -1325,8 +1327,8 @@ textarea{
  }
 
  .image{
-  width: 200px;
-  margin-left: -120px;
+  width: 150px;
+  margin-left: -150px;
  }
   
 
